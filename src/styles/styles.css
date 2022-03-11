@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import '~normalize.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  background-image: url('./../assets/mario.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 350px;
+  background-position: -50px;
+  margin: 0 auto;
+}
+
+.text-center {
+  display: inline-block;
+  margin-left: 25%;
+  color: red;
+}
